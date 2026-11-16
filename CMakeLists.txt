@@ -18,8 +18,11 @@ set(DESIGNAR_BUILD_DEMOS OFF CACHE BOOL "" FORCE)
 
 FetchContent_MakeAvailable(designar)
 
-# ¡Aquí está el cambio! El ejecutable ahora busca en src/main.cpp
-add_executable(main src/main.cpp)
+# Ejecutable CLI y lexer del lenguaje
+add_executable(main
+    src/main.cpp
+    src/loomatic_lexer.cpp
+)
 
 # Enlazar la librería de DeSiGNAR
 if(TARGET Designar::Designar)
