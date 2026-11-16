@@ -1,0 +1,9 @@
+int edad = 2026 - 2000;
+float promedio = 18.5;
+bool adulto = edad >= 18 && true;
+char inicial = 'A';
+string mensaje = "Hola, LoomAtic!";
+
+if (adulto) {
+    print(mensaje);
+} // Las reglas y el flujo se reconocen desde archivos .lm.
