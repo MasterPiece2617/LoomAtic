@@ -1,5 +1,8 @@
 # LoomAtic
-Loom de telar, atic de automatic
+
+Loomatic es un lenguaje de alto nivel, de paradigma híbrido y con tipado estático y fuerte. 
+
+Aunque está pensado para aprovechar un scripter visual que evite ambigüedades sintácticas, todo el código se almacena en texto plano dentro de archivos .lm escritos en la propia sintaxis de Loomatic. Esto permite que el archivo no solo sea la entrada directa para el compilador, sino que también pueda ser leído y modificado manualmente por el programador. Además, el código admite etiquetas internas que guardan información sobre la disposición y el estilo visual de cada bloque, permitiendo reconstruir el diagrama exacto al abrir el archivo en la interfaz gráfica.
 
 # Compilación:
 
